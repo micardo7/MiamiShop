@@ -74,16 +74,46 @@ body {
   }
   
   nav li a:hover {
-    background-color: rgba(215, 215, 215, 0.89); /* color de fondo al pasar el mouse */
+    background-color: rgba(215, 215, 215, 0.89); /* color del fondo al pasar el mouse */
   }
   
   nav li.active a {
-    background-color: #007bff; /* color de fondo del elemento activo */
+    background-color: #007bff; /* color del fondo del elemento activo */
   }
   
   .contenedor-de-buscador{ 
       justify-content: center;
       align-items: center;
+      position: absolute;
+      top: 41px;
+      margin-left: 350px;
+      
   }
    /*mover el buscador al centro 
+  */
+  #imgchicoalado img{
+    width: 316px;
+    height: 550px;
   }
+  #alo1{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+  }
+  #alo2{
+    position: absolute;
+    right: 120px;
+    top: 30px;
+  }
+  #alo3{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
+  #p{
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+  }
+  
+  
