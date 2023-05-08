@@ -52,6 +52,7 @@ body {
 
   nav {
     background-color: rgb(186, 186, 186); /* color de fondo del menú */
+    height: 100px;
 
   }
   
@@ -63,7 +64,9 @@ body {
   
   nav li {
     display: inline-block;
-    margin-right: 20px; /* espacio entre elementos del menú */
+    margin-right: 20px ;
+    margin: 0.3em 1em;
+    /* espacio entre elementos del menú */
   }
   
   nav li a {
@@ -115,5 +118,9 @@ body {
     left: 100px;
     margin-top: 10px;
   }
-  
-  
+.titulo-m{
+  margin: -1em 5em;
+}
+.img-grande{
+  margin: -36em 60em;
+}
