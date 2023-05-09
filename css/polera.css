@@ -1,0 +1,30 @@
+/*importo las fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:‘Open Sans’;
+}
+header{
+    background:url("img/rBVaVV2ekNaAagKsAAeiFZ1YzfM400.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+header h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    padding: 30px 0;
+}
+.contenedor{
+    max-width: 120px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /*oculto lo que queda fuera del contenedor*/
+    contain: paint;
+
+}
