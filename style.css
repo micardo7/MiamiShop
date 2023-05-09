@@ -8,7 +8,7 @@ body {
 }
 
 .col {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
 }   
 
 
@@ -95,6 +95,7 @@ body {
    /*mover el buscador al centro 
   */
   #imgchicoalado img{
+    margin: -36em 60em;
     width: 316px;
     height: 550px;
   }
@@ -123,4 +124,10 @@ body {
 }
 .img-grande{
   margin: -36em 60em;
+}
+.lista{
+  margin: 1em 0em;
+}
+.texto{
+  margin: -2em 3em;
 }
