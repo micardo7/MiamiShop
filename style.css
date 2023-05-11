@@ -95,9 +95,9 @@ body {
    /*mover el buscador al centro 
   */
   #imgchicoalado img{
-    margin: -36em 60em;
     width: 316px;
     height: 550px;
+    margin: -1em -2em -1em;  
   }
   #alo1{
     position: absolute;
@@ -131,3 +131,7 @@ body {
 .texto{
   margin: -2em 3em;
 }
+.container1-img-grande-abajo{
+  display: flex;
+}
+
