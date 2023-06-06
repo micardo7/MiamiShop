@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.col {
+    background-color: rgb(255, 0, 0);
+}
+
+
+form {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #0059ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #dcf710;
+}
+
+.container-color-ariba {
+    color: rgba(0, 0, 0, 0.867);
+}
+
+
+nav {
+    background-color: rgb(186, 186, 186);
+    /* color de fondo del menú */
+    height: 100px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin: 0.3em 1em;
+    /* espacio entre elementos del menú */
+}
+
+nav li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* color del texto del menú */
+}
+
+nav li a:hover {
+    background-color: rgba(215, 215, 215, 0.89);
+    /* color del fondo al pasar el mouse */
+}
+nav li.active a {
+    background-color: #007bff;
+    /* color del fondo del elemento activo */
+}
+
+.contenedor-de-buscador {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 41px;
+    margin-left: 350px;
+
+}
+
+/*mover el buscador al centro 
+    */
+
+#alo1 {
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+#alo2 {
+    position: absolute;
+    right: 120px;
+    top: 30px;
+}
+
+#alo3 {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+#p {
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+}
+
+.titulo-m {
+    margin: -1em 5em;
+}
+
+nav {
+    background-color: rgb(186, 186, 186);
+    /* color de fondo del menú */
+    height: 100px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin: 0.3em 1em;
+    /* espacio entre elementos del menú */
+}
